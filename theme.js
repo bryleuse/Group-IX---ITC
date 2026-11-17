@@ -2,7 +2,8 @@
     var root = document.documentElement;
     var key = 'apexsave-theme';
     var saved = null;
-    
+
+    try {
         saved = localStorage.getItem(key);
     } catch (e) {}
 
